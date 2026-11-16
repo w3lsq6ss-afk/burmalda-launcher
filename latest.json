@@ -1,7 +1,7 @@
 {
   "version": "2.5",
   "min_supported": "2.0",
-  "published": "2026-11-16T15:21:45Z",
+  "published": "2026-11-16T15:33:41Z",
   "channel": "stable",
   "notes": {
     "ru": "Обновления по воздуху: проверка при запуске, подписанный манифест, откат при неудачной подмене.",
@@ -9,8 +9,8 @@
   },
   "exe": {
     "url": "https://github.com/w3lsq6ss-afk/burmalda-launcher/releases/download/v2.5/burmalda_changer.exe",
-    "size": 23354222,
-    "sha256": "50a48f45c79b9968c69afd99a30a45ecc9c3ef99e317521af28c5e3546e9659f"
+    "size": 23354223,
+    "sha256": "b526092eac64648a478a812a0c2d852480bdd080b7c33161aa2658903aa7201e"
   },
-  "sig": "7be1542acca35a3e86e23187050dad11820acb5a7b5defca8b1a6d2312d9d179609b39494471d177402e3ec31d0a0fa9c81f5557ef33c50a8d77182f55cb7602"
+  "sig": "772e2ab461aae93ee9308cab82781ff813bb8c49057799cc2f4f1c26e02a2d88040433e233bae273f2278d335865d64718f567bf6551c6390c852a8c2632c604"
 }
