@@ -1,0 +1,16 @@
+{
+  "version": "2.5",
+  "min_supported": "2.0",
+  "published": "2026-11-16T15:21:45Z",
+  "channel": "stable",
+  "notes": {
+    "ru": "Обновления по воздуху: проверка при запуске, подписанный манифест, откат при неудачной подмене.",
+    "en": "Over-the-air updates: startup check, signed manifest, rollback on a failed swap."
+  },
+  "exe": {
+    "url": "https://github.com/w3lsq6ss-afk/burmalda-launcher/releases/download/v2.5/burmalda_changer.exe",
+    "size": 23354222,
+    "sha256": "50a48f45c79b9968c69afd99a30a45ecc9c3ef99e317521af28c5e3546e9659f"
+  },
+  "sig": "7be1542acca35a3e86e23187050dad11820acb5a7b5defca8b1a6d2312d9d179609b39494471d177402e3ec31d0a0fa9c81f5557ef33c50a8d77182f55cb7602"
+}
