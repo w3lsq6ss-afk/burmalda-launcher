@@ -1,16 +1,16 @@
 {
-  "version": "2.5",
+  "version": "2.6",
   "min_supported": "2.0",
-  "published": "2026-11-16T15:49:54Z",
+  "published": "2026-11-18T13:32:52Z",
   "channel": "stable",
   "notes": {
-    "ru": "Обновления по воздуху: проверка при запуске, подписанный манифест, откат при неудачной подмене.",
-    "en": "Over-the-air updates: startup check, signed manifest, rollback on a failed swap."
+    "ru": "Кадр разгружен: обход панелей не чаще раза в 30 кадров, кэш надетого по поколению, логгер пишет буфером, бюджет кадра в журнале строкой Profile. Колесо камеры переведено на raw input, дистанция по Ctrl + колесо. Новые ключи client.profile и client.v8dump.",
+    "en": "Frame cost cut: panel tree walks at most every 30 frames, loadout cached by generation, buffered logger, per-frame budget line in the log. Camera wheel moved to raw input, distance on Ctrl + wheel. New client.profile and client.v8dump keys."
   },
   "exe": {
-    "url": "https://github.com/w3lsq6ss-afk/burmalda-launcher/releases/download/v2.5/burmalda_changer.exe",
-    "size": 23355305,
-    "sha256": "48e50f6d1079389ff969c595a7ccafe1c4814894930fbf67d57dd53f81d1453f"
+    "url": "https://github.com/w3lsq6ss-afk/burmalda-launcher/releases/download/v2.6/burmalda_changer.exe",
+    "size": 23360848,
+    "sha256": "29f011612ee42b9c6cbb385c64b9f5766bbdcfc2413850c8abb2fd5e0b066d47"
   },
-  "sig": "52da2fc8a76aba670b41b53650d1c01db00e73a9876929c2e8adfc1868cc1e691767ac2bc093a36af30dfef5a019997e93eaf9467953085beb1d0c8506b0d10f"
+  "sig": "883a9999218a36d648e1222b1d7795a6b4ea4f1783c497e5a34d9badffffc37d787c22177c554a0cc8f3174cab6f90a02160ce3fbbdbe7a0d541fe8f41602609"
 }
