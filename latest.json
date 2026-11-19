@@ -1,16 +1,16 @@
 {
-  "version": "2.6.2",
+  "version": "2.7",
   "min_supported": "2.0",
-  "published": "2026-11-19T11:40:49Z",
+  "published": "2026-11-19T12:20:25Z",
   "channel": "stable",
   "notes": {
-    "ru": "Melonity убран из лаунчера: режима, guard и payload больше нет, установщик стал на 291 МБ легче. Дистанция камеры по умолчанию стоковая 1200, зум остаётся в настройках.",
-    "en": "Melonity removed from the launcher: mode, guard and payload are gone, the installer is 291 MB lighter. Camera distance defaults to stock 1200, zoom stays in settings."
+    "ru": "Новый дизайн лаунчера: вертикальный рейл с иконками, сцена с портретом и размытой водой, крупный заголовок, кнопка запуска с дыханием, три карточки внизу. Тема по умолчанию - Глубина: темная вода и голубой акцент, всего пять тем. Плавные переходы разделов и появление карточек.",
+    "en": "New launcher design: vertical icon rail, a stage with a portrait over blurred water, a large title, a breathing launch button, three cards at the bottom. Default theme is Deep: dark water and a cyan accent, five themes total. Smooth section transitions and card entrances."
   },
   "exe": {
-    "url": "https://github.com/w3lsq6ss-afk/burmalda-launcher/releases/download/v2.6.2/burmalda_changer.exe",
-    "size": 23356413,
-    "sha256": "4dc96908460c9e7f1a08e1c68f6027d245e727f401982da023b8564f31af9dcb"
+    "url": "https://github.com/w3lsq6ss-afk/burmalda-launcher/releases/download/v2.7/burmalda_changer.exe",
+    "size": 23371265,
+    "sha256": "4abdee871ad4fef620f2ea0139273c9f4ea895b488b41903cb409dd80ae5050c"
   },
-  "sig": "a4fc954fa957a6389f15da6becb0490c8a28e9dfea58ab078899c0d15028d7436418ef3a73b320a08acd615447acc66513a27b43dee18e0ca3e15bfc0d9b9d0e"
+  "sig": "a9cacab39bdf80513244504eae8f12f6d950de02c6b1b9ab5ceff1b1e6513d9192e5abf66d925cbf78b728b7af1f62b962a77715e4c3c79d6eda08d19077e708"
 }
