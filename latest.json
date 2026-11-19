@@ -1,16 +1,16 @@
 {
-  "version": "2.6",
+  "version": "2.6.1",
   "min_supported": "2.0",
-  "published": "2026-11-18T13:32:52Z",
+  "published": "2026-11-19T11:18:16Z",
   "channel": "stable",
   "notes": {
-    "ru": "Кадр разгружен: обход панелей не чаще раза в 30 кадров, кэш надетого по поколению, логгер пишет буфером, бюджет кадра в журнале строкой Profile. Колесо камеры переведено на raw input, дистанция по Ctrl + колесо. Новые ключи client.profile и client.v8dump.",
-    "en": "Frame cost cut: panel tree walks at most every 30 frames, loadout cached by generation, buffered logger, per-frame budget line in the log. Camera wheel moved to raw input, distance on Ctrl + wheel. New client.profile and client.v8dump keys."
+    "ru": "Кадр: журнал анимаций и дамп пакетов выключены по умолчанию, разбор сообщений только для активных функций, кэш надетого по поколению. Замер хуков в журнале строкой Profile: hooks. Дистанция камеры по умолчанию стоковая 1200 - зум как выбор, а не цена для всех.",
+    "en": "Frame: animation log and packet dump off by default, message parsing only for active features, loadout cache by generation. Hook timing in the log as a Profile: hooks line. Camera distance defaults to stock 1200 - zoom is a choice, not a tax."
   },
   "exe": {
-    "url": "https://github.com/w3lsq6ss-afk/burmalda-launcher/releases/download/v2.6/burmalda_changer.exe",
-    "size": 23360848,
-    "sha256": "29f011612ee42b9c6cbb385c64b9f5766bbdcfc2413850c8abb2fd5e0b066d47"
+    "url": "https://github.com/w3lsq6ss-afk/burmalda-launcher/releases/download/v2.6.1/burmalda_changer.exe",
+    "size": 23361642,
+    "sha256": "bc0c0bdd6835f48b331c14dacdaf79556b83f34ac9fa61532715f68eff7ba4f1"
   },
-  "sig": "883a9999218a36d648e1222b1d7795a6b4ea4f1783c497e5a34d9badffffc37d787c22177c554a0cc8f3174cab6f90a02160ce3fbbdbe7a0d541fe8f41602609"
+  "sig": "4a09e9df6514b8bec3fec8fa0ba7a224c6ae86836c6b2314ac24f5bae756ddbab518a8eb3bf76985bf5ee37ba4320cb5d7d30aa7e151c3361d62592eec6a3a05"
 }
