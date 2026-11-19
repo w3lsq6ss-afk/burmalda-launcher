@@ -1,16 +1,16 @@
 {
-  "version": "2.7",
+  "version": "2.7.1",
   "min_supported": "2.0",
-  "published": "2026-11-19T12:20:25Z",
+  "published": "2026-11-19T12:34:48Z",
   "channel": "stable",
   "notes": {
-    "ru": "Новый дизайн лаунчера: вертикальный рейл с иконками, сцена с портретом и размытой водой, крупный заголовок, кнопка запуска с дыханием, три карточки внизу. Тема по умолчанию - Глубина: темная вода и голубой акцент, всего пять тем. Плавные переходы разделов и появление карточек.",
-    "en": "New launcher design: vertical icon rail, a stage with a portrait over blurred water, a large title, a breathing launch button, three cards at the bottom. Default theme is Deep: dark water and a cyan accent, five themes total. Smooth section transitions and card entrances."
+    "ru": "Обложка сцены: портрет героя в комплекте, штатный арт больше не подменяется случайным котом. Портрет осветлён, свечение за портретом мягкое, без дуги-шва. Тумблеры в выключенном состоянии больше не горят янтарным.",
+    "en": "Stage cover: the hero portrait ships with the build, the stock art is no longer replaced by a random cat. The portrait is brightened, the glow behind it is soft with no seam arc. Switches no longer glow amber when off."
   },
   "exe": {
-    "url": "https://github.com/w3lsq6ss-afk/burmalda-launcher/releases/download/v2.7/burmalda_changer.exe",
-    "size": 23371265,
-    "sha256": "4abdee871ad4fef620f2ea0139273c9f4ea895b488b41903cb409dd80ae5050c"
+    "url": "https://github.com/w3lsq6ss-afk/burmalda-launcher/releases/download/v2.7.1/burmalda_changer.exe",
+    "size": 24008922,
+    "sha256": "8a163fed0468886f08eef3fbbdd6a3f8ea6784109fe00b2391bb1f7a9276fc9b"
   },
-  "sig": "a9cacab39bdf80513244504eae8f12f6d950de02c6b1b9ab5ceff1b1e6513d9192e5abf66d925cbf78b728b7af1f62b962a77715e4c3c79d6eda08d19077e708"
+  "sig": "08764e2e4a4519201fdc35a842c83e2865c20db9652b3b16e9e7c80ddd51af00797756570f3d731017e383af1da347bf91fe711723fad9cee601b500d22c6d0f"
 }
