@@ -1,16 +1,16 @@
 {
-  "version": "2.6.1",
+  "version": "2.6.2",
   "min_supported": "2.0",
-  "published": "2026-11-19T11:18:16Z",
+  "published": "2026-11-19T11:40:49Z",
   "channel": "stable",
   "notes": {
-    "ru": "Кадр: журнал анимаций и дамп пакетов выключены по умолчанию, разбор сообщений только для активных функций, кэш надетого по поколению. Замер хуков в журнале строкой Profile: hooks. Дистанция камеры по умолчанию стоковая 1200 - зум как выбор, а не цена для всех.",
-    "en": "Frame: animation log and packet dump off by default, message parsing only for active features, loadout cache by generation. Hook timing in the log as a Profile: hooks line. Camera distance defaults to stock 1200 - zoom is a choice, not a tax."
+    "ru": "Melonity убран из лаунчера: режима, guard и payload больше нет, установщик стал на 291 МБ легче. Дистанция камеры по умолчанию стоковая 1200, зум остаётся в настройках.",
+    "en": "Melonity removed from the launcher: mode, guard and payload are gone, the installer is 291 MB lighter. Camera distance defaults to stock 1200, zoom stays in settings."
   },
   "exe": {
-    "url": "https://github.com/w3lsq6ss-afk/burmalda-launcher/releases/download/v2.6.1/burmalda_changer.exe",
-    "size": 23361642,
-    "sha256": "bc0c0bdd6835f48b331c14dacdaf79556b83f34ac9fa61532715f68eff7ba4f1"
+    "url": "https://github.com/w3lsq6ss-afk/burmalda-launcher/releases/download/v2.6.2/burmalda_changer.exe",
+    "size": 23356413,
+    "sha256": "4dc96908460c9e7f1a08e1c68f6027d245e727f401982da023b8564f31af9dcb"
   },
-  "sig": "4a09e9df6514b8bec3fec8fa0ba7a224c6ae86836c6b2314ac24f5bae756ddbab518a8eb3bf76985bf5ee37ba4320cb5d7d30aa7e151c3361d62592eec6a3a05"
+  "sig": "a4fc954fa957a6389f15da6becb0490c8a28e9dfea58ab078899c0d15028d7436418ef3a73b320a08acd615447acc66513a27b43dee18e0ca3e15bfc0d9b9d0e"
 }
