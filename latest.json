@@ -1,16 +1,16 @@
 {
-  "version": "2.7.3",
+  "version": "2.8.0",
   "min_supported": "2.0",
-  "published": "2026-11-19T13:04:57Z",
+  "published": "2026-11-19T13:36:32Z",
   "channel": "stable",
   "notes": {
-    "ru": "Края карточек на сцене убраны: низ сцены уходит в ровный цвет темы ровно с линии карточек, поэтому скругления больше не обведены прямоугольником.",
-    "en": "Card edges on the stage are gone: the stage fades to a flat theme color exactly at the card line, so the rounded corners are no longer framed by a rectangle."
+    "ru": "Свечение и движение: активный пункт рейла обведён пульсирующим ободком, карточки сцены подсвечиваются по наведению, приходят снизу со ступенькой и коротко вспыхивают, за кромкой переезжающей страницы идёт полоса акцента, пройденные этапы запуска светятся.",
+    "en": "Glow and motion: the active rail item is ringed by a pulsing halo, stage cards light up on hover, arrive from below in a stagger with a short edge flash, an accent bar trails the sliding page, and completed launch steps glow."
   },
   "exe": {
-    "url": "https://github.com/w3lsq6ss-afk/burmalda-launcher/releases/download/v2.7.3/burmalda_changer.exe",
-    "size": 24011107,
-    "sha256": "ea51bdae8595c08c04ce236996be50380af5401ebe1dad43731625823416a16e"
+    "url": "https://github.com/w3lsq6ss-afk/burmalda-launcher/releases/download/v2.8.0/burmalda_changer.exe",
+    "size": 24018060,
+    "sha256": "1af432e322fd30da7c5d8bd275f6f10d2a2aaad937c9a19ed79595c2c198846a"
   },
-  "sig": "7f43ab398bb32e3217e05ecac79081d9a42e1ef16f35ef1a289932d08a7695560410212c099781eb787a8d1544dda6c6f66c0e1612458eb6d5c6121397014708"
+  "sig": "c610ad4dc785f973f1ee9619bb27cf99d625db10a8ce4a5cd2055fa45292ff4b46f5712eb08a7e9362cf1f08789d6bced8d15be24c54457a24d50a977442dd02"
 }
