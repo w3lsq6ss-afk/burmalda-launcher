@@ -1,16 +1,16 @@
 {
-  "version": "2.8.0",
+  "version": "2.6.2",
   "min_supported": "2.0",
-  "published": "2026-11-19T13:36:32Z",
+  "published": "2026-11-19T16:07:36Z",
   "channel": "stable",
   "notes": {
-    "ru": "Свечение и движение: активный пункт рейла обведён пульсирующим ободком, карточки сцены подсвечиваются по наведению, приходят снизу со ступенькой и коротко вспыхивают, за кромкой переезжающей страницы идёт полоса акцента, пройденные этапы запуска светятся.",
-    "en": "Glow and motion: the active rail item is ringed by a pulsing halo, stage cards light up on hover, arrive from below in a stagger with a short edge flash, an accent bar trails the sliding page, and completed launch steps glow."
+    "ru": "Melonity убран из лаунчера: нет режима, нет guard-DLL и ini, инсталлятор без payload 291 МБ. Камера по умолчанию 1200 в обоих cfg.",
+    "en": "Melonity removed from the launcher: no mode, no guard DLL or ini, installer without the 291 MB payload. Camera distance defaults to 1200 in both cfgs."
   },
   "exe": {
-    "url": "https://github.com/w3lsq6ss-afk/burmalda-launcher/releases/download/v2.8.0/burmalda_changer.exe",
-    "size": 24018060,
-    "sha256": "1af432e322fd30da7c5d8bd275f6f10d2a2aaad937c9a19ed79595c2c198846a"
+    "url": "https://github.com/w3lsq6ss-afk/burmalda-launcher/releases/download/v2.6.2/burmalda_changer.exe",
+    "size": 23356413,
+    "sha256": "4dc96908460c9e7f1a08e1c68f6027d245e727f401982da023b8564f31af9dcb"
   },
-  "sig": "c610ad4dc785f973f1ee9619bb27cf99d625db10a8ce4a5cd2055fa45292ff4b46f5712eb08a7e9362cf1f08789d6bced8d15be24c54457a24d50a977442dd02"
+  "sig": "b8e8b714190e2caf8eb636da8d7d674231ccb87367fd513f2b87103ca10496c5ad99ddd6ad990d5cee33f7eb157a661071ab9fea82ec87d227c27a90ff9f7b07"
 }
