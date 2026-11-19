@@ -1,16 +1,16 @@
 {
-  "version": "2.7.2",
+  "version": "2.7.3",
   "min_supported": "2.0",
-  "published": "2026-11-19T12:50:40Z",
+  "published": "2026-11-19T13:04:57Z",
   "channel": "stable",
   "notes": {
-    "ru": "Края карточек больше не видны на арте: низ сцены уходит в ровный фон. Логотип рейла набран чётко, значки спуфера и настроек перерисованы. В сетах по умолчанию три карточки в ряд, панель выбранного сета уже.",
-    "en": "Card edges no longer show on the art: the bottom of the stage fades to a flat background. The rail logo is crisp, the spoofer and settings icons are redrawn. The catalog now shows three cards per row by default with a narrower selected-set panel."
+    "ru": "Края карточек на сцене убраны: низ сцены уходит в ровный цвет темы ровно с линии карточек, поэтому скругления больше не обведены прямоугольником.",
+    "en": "Card edges on the stage are gone: the stage fades to a flat theme color exactly at the card line, so the rounded corners are no longer framed by a rectangle."
   },
   "exe": {
-    "url": "https://github.com/w3lsq6ss-afk/burmalda-launcher/releases/download/v2.7.2/burmalda_changer.exe",
-    "size": 24011226,
-    "sha256": "7b8b85e56f2d61466f122b28e430d215f974b67b62b60bcd4fddaa9d4420c693"
+    "url": "https://github.com/w3lsq6ss-afk/burmalda-launcher/releases/download/v2.7.3/burmalda_changer.exe",
+    "size": 24011107,
+    "sha256": "ea51bdae8595c08c04ce236996be50380af5401ebe1dad43731625823416a16e"
   },
-  "sig": "106abe1510efcd9728133f042dc943ce5edb3eb25f61f7fcdc7847e4c685bb3d7d1aad465e2ef2f1b2fea09a1b5b33b95cda753d85139f078fe3bcc13c06ae0f"
+  "sig": "7f43ab398bb32e3217e05ecac79081d9a42e1ef16f35ef1a289932d08a7695560410212c099781eb787a8d1544dda6c6f66c0e1612458eb6d5c6121397014708"
 }
