@@ -1,16 +1,16 @@
 {
-  "version": "2.7.1",
+  "version": "2.7.2",
   "min_supported": "2.0",
-  "published": "2026-11-19T12:34:48Z",
+  "published": "2026-11-19T12:50:40Z",
   "channel": "stable",
   "notes": {
-    "ru": "Обложка сцены: портрет героя в комплекте, штатный арт больше не подменяется случайным котом. Портрет осветлён, свечение за портретом мягкое, без дуги-шва. Тумблеры в выключенном состоянии больше не горят янтарным.",
-    "en": "Stage cover: the hero portrait ships with the build, the stock art is no longer replaced by a random cat. The portrait is brightened, the glow behind it is soft with no seam arc. Switches no longer glow amber when off."
+    "ru": "Края карточек больше не видны на арте: низ сцены уходит в ровный фон. Логотип рейла набран чётко, значки спуфера и настроек перерисованы. В сетах по умолчанию три карточки в ряд, панель выбранного сета уже.",
+    "en": "Card edges no longer show on the art: the bottom of the stage fades to a flat background. The rail logo is crisp, the spoofer and settings icons are redrawn. The catalog now shows three cards per row by default with a narrower selected-set panel."
   },
   "exe": {
-    "url": "https://github.com/w3lsq6ss-afk/burmalda-launcher/releases/download/v2.7.1/burmalda_changer.exe",
-    "size": 24008922,
-    "sha256": "8a163fed0468886f08eef3fbbdd6a3f8ea6784109fe00b2391bb1f7a9276fc9b"
+    "url": "https://github.com/w3lsq6ss-afk/burmalda-launcher/releases/download/v2.7.2/burmalda_changer.exe",
+    "size": 24011226,
+    "sha256": "7b8b85e56f2d61466f122b28e430d215f974b67b62b60bcd4fddaa9d4420c693"
   },
-  "sig": "08764e2e4a4519201fdc35a842c83e2865c20db9652b3b16e9e7c80ddd51af00797756570f3d731017e383af1da347bf91fe711723fad9cee601b500d22c6d0f"
+  "sig": "106abe1510efcd9728133f042dc943ce5edb3eb25f61f7fcdc7847e4c685bb3d7d1aad465e2ef2f1b2fea09a1b5b33b95cda753d85139f078fe3bcc13c06ae0f"
 }
