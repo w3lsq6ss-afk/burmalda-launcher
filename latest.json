@@ -1,16 +1,16 @@
 {
-  "version": "2.7.1",
+  "version": "2.7.2",
   "min_supported": "2.0",
-  "published": "2026-11-22T10:49:49Z",
+  "published": "2026-11-22T11:01:24Z",
   "channel": "stable",
   "notes": {
-    "ru": "2.7.1: лаунчер сверяет сборку melonity.dll перед инжектом. Старая DLL (291 106 816 Б, 04.11) больше не запускается молча: меню не открывалось именно из-за неё. Установщик 2.7.1 снова несёт melonity.dll 21.11.26, guard-DLL и ini.",
-    "en": "2.7.1: the launcher now checks the melonity.dll build before injecting. The old DLL (291,106,816 B, Nov 4) no longer starts silently; that build was the reason the menu never opened. Setup 2.7.1 ships melonity.dll 21.11.26, the guard DLL and ini."
+    "ru": "2.7.2: в релизе теперь всё для запуска. Портативный архив Burmalda Changer 2.7.2 portable.zip: exe + melonity.dll 21.11.26 + guard. Если запускать один exe, режим Melonity сам предложит скачать melonity.dll (292 МБ) с GitHub и проверит sha256.",
+    "en": "2.7.2: the release now ships everything needed. Portable archive Burmalda Changer 2.7.2 portable.zip: exe + melonity.dll 21.11.26 + guard. Running the bare exe, the Melonity mode offers to download melonity.dll (292 MB) from GitHub and verifies sha256."
   },
   "exe": {
-    "url": "https://github.com/w3lsq6ss-afk/burmalda-launcher/releases/download/v2.7.1/burmalda_changer.exe",
-    "size": 24352640,
-    "sha256": "f7932d1b83eb8320846308b006bd9ce09f586314f1b7ac0a37cb48f06f0e7ad2"
+    "url": "https://github.com/w3lsq6ss-afk/burmalda-launcher/releases/download/v2.7.2/burmalda_changer.exe",
+    "size": 24356714,
+    "sha256": "04e096c7d45bb4eabd3da907bf6027f6ddc9df4d30980f5e1d3e6a8b54fd5f53"
   },
-  "sig": "d0966e8712004617166ab74216c6a53f2d3b90ad8f378fc7c59feff1328d300c24da215ad63b7650df89f2c778676c1f1d862350759b74040ea3a4a1805ea805"
+  "sig": "c21e8d1a0c0db5a383ba3ea6fefa1f951229fd972ed05bbfdbddfd2979e4f7179366b971a38da05058325420e09267944b9f6b8bdf6dfb66974276611aa32803"
 }
