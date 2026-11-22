@@ -1,16 +1,16 @@
 {
-  "version": "2.7.2",
+  "version": "2.7.3",
   "min_supported": "2.0",
-  "published": "2026-11-22T11:01:24Z",
+  "published": "2026-11-22T11:25:41Z",
   "channel": "stable",
   "notes": {
-    "ru": "2.7.2: в релизе теперь всё для запуска. Портативный архив Burmalda Changer 2.7.2 portable.zip: exe + melonity.dll 21.11.26 + guard. Если запускать один exe, режим Melonity сам предложит скачать melonity.dll (292 МБ) с GitHub и проверит sha256.",
-    "en": "2.7.2: the release now ships everything needed. Portable archive Burmalda Changer 2.7.2 portable.zip: exe + melonity.dll 21.11.26 + guard. Running the bare exe, the Melonity mode offers to download melonity.dll (292 MB) from GitHub and verifies sha256."
+    "ru": "2.7.3: если melonity.dll рядом с exe не читается (OneDrive, облачная заглушка, битая распаковка) или это старая сборка, лаунчер берёт рабочую копию из %APPDATA%\\BurmaldaChanger, а при её отсутствии предлагает скачать DLL из релиза с проверкой sha256. Ошибка чтения больше не блокирует запуск.",
+    "en": "2.7.3: if melonity.dll next to the exe cannot be read (OneDrive placeholder, broken extraction) or is an old build, the launcher uses a working copy from %APPDATA%\\BurmaldaChanger, and if that is missing offers to download the DLL from the release with a sha256 check. A read error no longer blocks the launch."
   },
   "exe": {
-    "url": "https://github.com/w3lsq6ss-afk/burmalda-launcher/releases/download/v2.7.2/burmalda_changer.exe",
-    "size": 24356714,
-    "sha256": "04e096c7d45bb4eabd3da907bf6027f6ddc9df4d30980f5e1d3e6a8b54fd5f53"
+    "url": "https://github.com/w3lsq6ss-afk/burmalda-launcher/releases/download/v2.7.3/burmalda_changer.exe",
+    "size": 24357099,
+    "sha256": "66e9062c258e41b46de7a6684c40adfdee70af0c78945383aeae48371b8ff2af"
   },
-  "sig": "c21e8d1a0c0db5a383ba3ea6fefa1f951229fd972ed05bbfdbddfd2979e4f7179366b971a38da05058325420e09267944b9f6b8bdf6dfb66974276611aa32803"
+  "sig": "6e0fc28baa74799267a8c90f3960220d69320ce4cf035a2b0904ce8d5b526a4d825be27cd86799b0aaa17dc270c8c6d911920f40ce1e3709ccd2760364aee201"
 }
