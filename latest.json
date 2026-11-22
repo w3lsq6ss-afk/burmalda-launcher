@@ -1,16 +1,16 @@
 {
-  "version": "2.7.3",
+  "version": "2.7.4",
   "min_supported": "2.0",
-  "published": "2026-11-22T11:25:41Z",
+  "published": "2026-11-22T11:54:17Z",
   "channel": "stable",
   "notes": {
-    "ru": "2.7.3: если melonity.dll рядом с exe не читается (OneDrive, облачная заглушка, битая распаковка) или это старая сборка, лаунчер берёт рабочую копию из %APPDATA%\\BurmaldaChanger, а при её отсутствии предлагает скачать DLL из релиза с проверкой sha256. Ошибка чтения больше не блокирует запуск.",
-    "en": "2.7.3: if melonity.dll next to the exe cannot be read (OneDrive placeholder, broken extraction) or is an old build, the launcher uses a working copy from %APPDATA%\\BurmaldaChanger, and if that is missing offers to download the DLL from the release with a sha256 check. A read error no longer blocks the launch."
+    "ru": "2.7.4: нечитаемая melonity.dll больше не блокирует запуск. Лаунчер ищет рабочую копию в трёх местах (папка exe, %APPDATA%\\BurmaldaChanger, %TEMP%\\BurmaldaChanger), битые копии убирает в .broken-<время>, при отсутствии предлагает скачать DLL. Диагностика: burmalda_changer.exe --melonity-check. В релизе сетап 2.7.4.",
+    "en": "2.7.4: an unreadable melonity.dll no longer blocks the launch. The launcher looks for a working copy in three places (exe folder, %APPDATA%\\BurmaldaChanger, %TEMP%\\BurmaldaChanger), moves broken copies aside as .broken-<time>, and offers a download when none is usable. Diagnostics: burmalda_changer.exe --melonity-check. The release includes the 2.7.4 setup."
   },
   "exe": {
-    "url": "https://github.com/w3lsq6ss-afk/burmalda-launcher/releases/download/v2.7.3/burmalda_changer.exe",
-    "size": 24357099,
-    "sha256": "66e9062c258e41b46de7a6684c40adfdee70af0c78945383aeae48371b8ff2af"
+    "url": "https://github.com/w3lsq6ss-afk/burmalda-launcher/releases/download/v2.7.4/burmalda_changer.exe",
+    "size": 24359080,
+    "sha256": "caf5e44d7a813416c7607013267fb738916afb4ba48a6f2d3c82449b5ea56c0b"
   },
-  "sig": "6e0fc28baa74799267a8c90f3960220d69320ce4cf035a2b0904ce8d5b526a4d825be27cd86799b0aaa17dc270c8c6d911920f40ce1e3709ccd2760364aee201"
+  "sig": "3d8acaddce340c5479f46077be6014577923bf6291c688f162c5a1bb41f8d9371fd00eeb847e6997fe1b71d8d721d4a246fd250bb1d0904be4e096d898c94406"
 }
