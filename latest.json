@@ -1,16 +1,16 @@
 {
-  "version": "2.6.2",
+  "version": "2.7.0",
   "min_supported": "2.0",
-  "published": "2026-11-19T16:07:36Z",
+  "published": "2026-11-22T10:02:51Z",
   "channel": "stable",
   "notes": {
-    "ru": "Melonity убран из лаунчера: нет режима, нет guard-DLL и ini, инсталлятор без payload 291 МБ. Камера по умолчанию 1200 в обоих cfg.",
-    "en": "Melonity removed from the launcher: no mode, no guard DLL or ini, installer without the 291 MB payload. Camera distance defaults to 1200 in both cfgs."
+    "ru": "Melonity 21.11.26 снова в лаунчере: режим в списке инжекта, guard-DLL и ini внедряются перед melonity.dll и глушат окно hello и служебные окна. Установщик снова несёт payload melonity.",
+    "en": "Melonity 21.11.26 is back in the launcher: the mode is in the inject list again, the guard DLL and ini are injected before melonity.dll and suppress the hello window and service windows. The installer ships the melonity payload again."
   },
   "exe": {
-    "url": "https://github.com/w3lsq6ss-afk/burmalda-launcher/releases/download/v2.6.2/burmalda_changer.exe",
-    "size": 23356413,
-    "sha256": "4dc96908460c9e7f1a08e1c68f6027d245e727f401982da023b8564f31af9dcb"
+    "url": "https://github.com/w3lsq6ss-afk/burmalda-launcher/releases/download/v2.7.0/burmalda_changer.exe",
+    "size": 24351179,
+    "sha256": "d550af72faa03f893f93b62394eff23cc680c363d7ed5b29de28ef9fbf97ec8b"
   },
-  "sig": "b8e8b714190e2caf8eb636da8d7d674231ccb87367fd513f2b87103ca10496c5ad99ddd6ad990d5cee33f7eb157a661071ab9fea82ec87d227c27a90ff9f7b07"
+  "sig": "bffea86388bd24126431526db86ab0610548b5c4755e20244ab48dcf6e0afb37ae6785ca0995bfd0ca23892b5c6f9a4b4dee23174e280feb5b7726661f51e80e"
 }
