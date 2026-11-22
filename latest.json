@@ -1,16 +1,16 @@
 {
-  "version": "2.7.0",
+  "version": "2.7.1",
   "min_supported": "2.0",
-  "published": "2026-11-22T10:02:51Z",
+  "published": "2026-11-22T10:49:49Z",
   "channel": "stable",
   "notes": {
-    "ru": "Melonity 21.11.26 снова в лаунчере: режим в списке инжекта, guard-DLL и ini внедряются перед melonity.dll и глушат окно hello и служебные окна. Установщик снова несёт payload melonity.",
-    "en": "Melonity 21.11.26 is back in the launcher: the mode is in the inject list again, the guard DLL and ini are injected before melonity.dll and suppress the hello window and service windows. The installer ships the melonity payload again."
+    "ru": "2.7.1: лаунчер сверяет сборку melonity.dll перед инжектом. Старая DLL (291 106 816 Б, 04.11) больше не запускается молча: меню не открывалось именно из-за неё. Установщик 2.7.1 снова несёт melonity.dll 21.11.26, guard-DLL и ini.",
+    "en": "2.7.1: the launcher now checks the melonity.dll build before injecting. The old DLL (291,106,816 B, Nov 4) no longer starts silently; that build was the reason the menu never opened. Setup 2.7.1 ships melonity.dll 21.11.26, the guard DLL and ini."
   },
   "exe": {
-    "url": "https://github.com/w3lsq6ss-afk/burmalda-launcher/releases/download/v2.7.0/burmalda_changer.exe",
-    "size": 24351179,
-    "sha256": "d550af72faa03f893f93b62394eff23cc680c363d7ed5b29de28ef9fbf97ec8b"
+    "url": "https://github.com/w3lsq6ss-afk/burmalda-launcher/releases/download/v2.7.1/burmalda_changer.exe",
+    "size": 24352640,
+    "sha256": "f7932d1b83eb8320846308b006bd9ce09f586314f1b7ac0a37cb48f06f0e7ad2"
   },
-  "sig": "bffea86388bd24126431526db86ab0610548b5c4755e20244ab48dcf6e0afb37ae6785ca0995bfd0ca23892b5c6f9a4b4dee23174e280feb5b7726661f51e80e"
+  "sig": "d0966e8712004617166ab74216c6a53f2d3b90ad8f378fc7c59feff1328d300c24da215ad63b7650df89f2c778676c1f1d862350759b74040ea3a4a1805ea805"
 }
