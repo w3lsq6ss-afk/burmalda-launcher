@@ -1,16 +1,16 @@
 {
-  "version": "2.7.4",
+  "version": "2.7.5",
   "min_supported": "2.0",
-  "published": "2026-11-22T11:54:17Z",
+  "published": "2026-11-24T17:54:03Z",
   "channel": "stable",
   "notes": {
-    "ru": "2.7.4: нечитаемая melonity.dll больше не блокирует запуск. Лаунчер ищет рабочую копию в трёх местах (папка exe, %APPDATA%\\BurmaldaChanger, %TEMP%\\BurmaldaChanger), битые копии убирает в .broken-<время>, при отсутствии предлагает скачать DLL. Диагностика: burmalda_changer.exe --melonity-check. В релизе сетап 2.7.4.",
-    "en": "2.7.4: an unreadable melonity.dll no longer blocks the launch. The launcher looks for a working copy in three places (exe folder, %APPDATA%\\BurmaldaChanger, %TEMP%\\BurmaldaChanger), moves broken copies aside as .broken-<time>, and offers a download when none is usable. Diagnostics: burmalda_changer.exe --melonity-check. The release includes the 2.7.4 setup."
+    "ru": "2.7.5: новый внутриигровой оверлей в стиле лаунчера: фирменная шапка BURMALDA, вкладки Деревья, Погода и HUD без стандартной рамки. В Погоде — круглые превью для всех 10 пресетов, слайдеры показывают значение над ползунком. Обновление ставится поверх старой версии: настройки и vpk_skinchanger.cfg сохраняются. В релизе сетап 2.7.5 и portable-архив.",
+    "en": "2.7.5: a new in-game overlay in the launcher's style: the BURMALDA header, Trees, Weather and HUD tabs without the default window frame. Weather cards now show round previews for all 10 presets, and sliders display their value above the track. The update installs over the previous version and keeps your settings and vpk_skinchanger.cfg. The release includes the 2.7.5 setup and a portable zip."
   },
   "exe": {
-    "url": "https://github.com/w3lsq6ss-afk/burmalda-launcher/releases/download/v2.7.4/burmalda_changer.exe",
-    "size": 24359080,
-    "sha256": "caf5e44d7a813416c7607013267fb738916afb4ba48a6f2d3c82449b5ea56c0b"
+    "url": "https://github.com/w3lsq6ss-afk/burmalda-launcher/releases/download/v2.7.5/burmalda_changer.exe",
+    "size": 25056370,
+    "sha256": "a51e47371b4f3bbc0b8a095c809fc037186d522fd949887da9adbc6fc2538eb3"
   },
-  "sig": "3d8acaddce340c5479f46077be6014577923bf6291c688f162c5a1bb41f8d9371fd00eeb847e6997fe1b71d8d721d4a246fd250bb1d0904be4e096d898c94406"
+  "sig": "9680e5c0253b768dc6e55bcfae3ba007acfd54ad7d5409e3d110bb34d421c488be8cebc5f8c6176c22d22efc735a3dbe0727ba725372719eb100b3cf27512303"
 }
